@@ -7,7 +7,7 @@ export const useDarkMode = (key) => {
     const toggleMode = e => {
         e.preventDefault();
         setValues(!values);
-        if(values === true){
+        if(values === false){
             window.document.body.classList.add('dark-mode')
         }else {
             window.document.body.classList.remove('dark-mode')
